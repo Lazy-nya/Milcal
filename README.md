@@ -5,7 +5,6 @@
 
 > 使用 Java + 原生 Android View 编写，无第三方 UI 框架，包体轻量、启动快速。
 
-[![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3DDC84.svg)](#)
 [![minSdk](https://img.shields.io/badge/Android-10%2B%20(API%2029)-3DDC84.svg)](#)
 [![Version](https://img.shields.io/badge/version-0.3.2-orange.svg)](CHANGELOG.md)
