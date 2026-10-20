@@ -105,21 +105,6 @@ app/src/main/java/com/milcal/app/
 - 哔哩哔哩：<https://space.bilibili.com/626182490>
 - MilthmCalc：<https://mhtlim.top/>
 
-## 许可证
 
-本项目以 **GNU General Public License v3.0（GPL-3.0-only）** 授权发布。
-你可以自由使用、修改和分发，但衍生作品必须同样以 GPL-3.0 开源并保留版权声明。
-完整条款见 [`LICENSE`](LICENSE)。
-
-```
-Copyright (C) 2026 纸喵橘柚 (Lazy-nya)
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, version 3 of the License.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 ```
