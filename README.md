@@ -1,6 +1,6 @@
 # Milcal
 
-**Milcal** 是一个原生的 Android **Milthm 查分器**。它可以从设备上的 Milthm 存档中读取成绩，
+**Milcal** 是一个基于Mlithm网页查分器开发的原生 Android **Milthm 查分器**。它可以从设备上的 Milthm 存档中读取成绩，
 也可以通过 Milkloud 账号联网查询，并按官方公式计算单曲 Reality 与总 Reality（Best 20）。
 
 > 使用 Java + 原生 Android View 编写，无第三方 UI 框架，包体轻量、启动快速。
@@ -44,23 +44,8 @@
 - **Gradle** 8.9（可直接使用仓库内的 `gradlew`）
 - 运行环境：**Android 10（API 29）** 及以上
 
-## 构建
 
-```powershell
-$env:JAVA_HOME="C:\Program Files\Java\jdk-22"
-$env:ANDROID_HOME="$env:LOCALAPPDATA\Android\Sdk"
-.\gradlew.bat assembleRelease
-```
-
-产物：`app/build/outputs/apk/release/app-release.apk`
-
-> `local.properties` 中的 `sdk.dir` 会自动生成，请勿提交。
-> 工程位于非 ASCII 路径下时，`gradle.properties` 已设置 `android.overridePathCheck=true`。
-
-发布签名使用 `keystore/milcal-release.jks`（别名 `milcal`）。仓库中保留的是开发用示例密钥，
-**请在正式发布时替换为你自己的密钥并在 `keystore.properties` 中配置**（该文件已被 `.gitignore` 忽略）。
-
-## 目录结构
+## 目录结构（未完善）
 
 ```
 app/src/main/java/com/milcal/app/
@@ -80,15 +65,6 @@ app/src/main/java/com/milcal/app/
 - [`docs/milkloud-api.md`](docs/milkloud-api.md) — Milkloud 接口
 - [`docs/assets.md`](docs/assets.md) — 资源生成（`tools/gen_assets.py`）
 
-## 参与贡献
-
-欢迎提交 Issue 与 Pull Request。提交前请：
-
-1. 使用 JDK 17+ 本地编译通过：`.\gradlew.bat assembleRelease`
-2. 遵循现有代码风格（Java、原生 View，不引入不必要依赖）
-3. 保持提交信息清晰（建议 [Conventional Commits](https://www.conventionalcommits.org/) 风格）
-
-版本变更记录见 [`CHANGELOG.md`](CHANGELOG.md)。
 
 ## 免责声明
 
